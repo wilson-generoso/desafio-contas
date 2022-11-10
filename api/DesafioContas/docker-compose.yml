@@ -1,0 +1,11 @@
+version: '3.4'
+
+services:
+  immongo:
+    image: mongo
+
+  desafio.contas.api:
+    image: ${DOCKER_REGISTRY-}desafiocontasapi
+    build:
+      context: .
+      dockerfile: Api/Dockerfile

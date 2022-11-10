@@ -1,0 +1,23 @@
+version: '3.4'
+
+services:
+  immongo:
+    container_name: desafiodb
+    restart: always
+    ports:
+      - "27017:27017"
+    volumes:
+      - ${WEBAPP_STORAGE_HOME}/site:/data/db
+  desafio.contas.api:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=https://+:443;http://+:80
+      - MONGODB_SETTINGS={"DatabaseName":"Desafio","Host":"desafiodb","Port":27017}
+    depends_on:
+      - immongo
+    ports:
+      - "80"
+      - "443"
+    volumes:
+      - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
+      - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
