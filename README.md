@@ -56,17 +56,20 @@ Foram utilizados alguns design patterns, a saber:
 
 Para o funcionamento da aplicação é necessário a instalação dos seguintes pré-requisitos:
 
-1. [Docker Desktop](https://www.docker.com/products/docker-desktop/)
-2. [Dotnet 6 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/6.0)
+- [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+- [Dotnet 6 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/6.0)
 
 #### Baixando codigo fonte
 
 1. Clone o repositório do "Desafio Lançamentos" executando a instrução:
+	```
 	git clone https://github.com/wilson-generoso/desafio-inmetrics.git
+	```
 
 2. Entre na pasta api/DesafioLancamentos (no contexto da pasta clonada):
+	```
 	cd api/DesafioLancementos
-
+	```
 
 #### Testando a aplicação + Cobertura de testes
 
@@ -78,7 +81,9 @@ Para o funcionamento da aplicação é necessário a instalação dos seguintes pré-re
 #### Subindo o ambiente
 
 4. Execute a seguinte instrução para inicializar a aplicação:
+	```
 	docker-compose -f "docker-compose.yml" -f "docker-compose.override.yml" --ansi never up --build --remove-orphans
+	```
 
 5. Abra a url da [documentação da API](https://localhost:8091/swagger)
 
@@ -86,14 +91,17 @@ Para o funcionamento da aplicação é necessário a instalação dos seguintes pré-re
 ***Os comandos abaixo são exemplos executados em console***
 
 - Crie uma conta através do endpoint [POST]/v1/Account
+	```
 	curl --location --request POST 'https://localhost:8091/v1/Account' \
 	--header 'Content-Type: application/json' \
 	--data-raw '{
 	  "name": "Teste",
 	  "balance": 20.91
 	}'
+	```
 
 - Copie o "id" da conta criada, retornado na resposta, e registre um lançamento de crédito
+	```
 	curl --location --request POST 'https://localhost:8091/v1/Entry' \
 	--header 'Content-Type: application/json' \
 	--data-raw '{
@@ -103,11 +111,15 @@ Para o funcionamento da aplicação é necessário a instalação dos seguintes pré-re
 	  "value": 10,
 	  "type": 2
 	}'	
+	```
 	
 - Consulte o saldo da conta
+	```
 	curl --location --request GET 'https://localhost:8091/v1/Account/{adicione aqui o 'id' da conta}'
+	```
 
 - Registre novo lançamento de débito
+	```
 	curl --location --request POST 'https://localhost:8091/v1/Entry' \
 	--header 'Content-Type: application/json' \
 	--data-raw '{
@@ -117,6 +129,9 @@ Para o funcionamento da aplicação é necessário a instalação dos seguintes pré-re
 	  "value": 15.37,
 	  "type": 1
 	}'
+	```
 
 - Consulte o extrato consolidado das operações da conta
+	```
 	curl --location --request GET 'https://localhost:8091/v1/Entry/{adicione aqui o 'id' da conta}'
+	```

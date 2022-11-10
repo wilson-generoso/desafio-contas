@@ -25,7 +25,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DesafioContas\Application\Desafio.Contas.Application.csproj" />
+    <ProjectReference Include="..\Application\Desafio.Contas.Application.csproj" />
   </ItemGroup>
 
 </Project>
