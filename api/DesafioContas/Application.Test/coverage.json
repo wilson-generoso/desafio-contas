@@ -1,0 +1,1166 @@
+{
+  "Desafio.Contas.Application.dll": {
+    "C:\\Users\\wilso\\source\\repos\\Testes\\desafio-contas\\api\\DesafioContas\\Application\\Validation\\ValidationBehavior.cs": {
+      "Desafio.Contas.Application.Validation.ValidationBehavior`2": {
+        "System.Void Desafio.Contas.Application.Validation.ValidationBehavior`2::.ctor(System.Collections.Generic.IEnumerable`1<FluentValidation.IValidator`1<TRequest>>)": {
+          "Lines": {
+            "24": 2,
+            "25": 2,
+            "26": 2,
+            "27": 2
+          },
+          "Branches": []
+        }
+      },
+      "Desafio.Contas.Application.Validation.ValidationBehavior`2/<>c__DisplayClass2_1": {
+        "System.Threading.Tasks.Task`1<FluentValidation.Results.ValidationResult> Desafio.Contas.Application.Validation.ValidationBehavior`2/<>c__DisplayClass2_1::<Handle>b__0(FluentValidation.IValidator`1<TRequest>)": {
+          "Lines": {
+            "41": 4
+          },
+          "Branches": []
+        }
+      },
+      "Desafio.Contas.Application.Validation.ValidationBehavior`2/<Handle>d__2": {
+        "System.Void Desafio.Contas.Application.Validation.ValidationBehavior`2/<Handle>d__2::MoveNext()": {
+          "Lines": {
+            "37": 2,
+            "38": 2,
+            "39": 2,
+            "40": 2,
+            "43": 2,
+            "44": 1,
+            "45": 1,
+            "47": 1,
+            "48": 1
+          },
+          "Branches": [
+            {
+              "Line": 38,
+              "Offset": 75,
+              "EndOffset": 80,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            },
+            {
+              "Line": 43,
+              "Offset": 308,
+              "EndOffset": 310,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 43,
+              "Offset": 308,
+              "EndOffset": 317,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            },
+            {
+              "Line": 38,
+              "Offset": 75,
+              "EndOffset": 339,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\wilso\\source\\repos\\Testes\\desafio-contas\\api\\DesafioContas\\Application\\Validation\\ValidationException.cs": {
+      "Desafio.Contas.Application.Validation.ValidationException": {
+        "System.Collections.Generic.List`1<System.String> Desafio.Contas.Application.Validation.ValidationException::get_Errors()": {
+          "Lines": {
+            "42": 5
+          },
+          "Branches": []
+        },
+        "System.Void Desafio.Contas.Application.Validation.ValidationException::<.ctor>b__1_2(System.String)": {
+          "Lines": {
+            "36": 2
+          },
+          "Branches": []
+        },
+        "System.Void Desafio.Contas.Application.Validation.ValidationException::.ctor(System.String,System.String[])": {
+          "Lines": {
+            "20": 2,
+            "21": 2,
+            "22": 2,
+            "23": 2
+          },
+          "Branches": []
+        },
+        "System.Void Desafio.Contas.Application.Validation.ValidationException::.ctor(System.Collections.Generic.IEnumerable`1<FluentValidation.Results.ValidationResult>)": {
+          "Lines": {
+            "29": 1,
+            "30": 1,
+            "31": 1,
+            "32": 1,
+            "33": 2,
+            "34": 2,
+            "35": 1,
+            "37": 1
+          },
+          "Branches": [
+            {
+              "Line": 33,
+              "Offset": 6,
+              "EndOffset": 8,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 33,
+              "Offset": 6,
+              "EndOffset": 52,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\wilso\\source\\repos\\Testes\\desafio-contas\\api\\DesafioContas\\Application\\Validation\\ValidationExceptionExtension.cs": {
+      "Desafio.Contas.Application.Validation.ValidationExceptionExtension": {
+        "System.Boolean Desafio.Contas.Application.Validation.ValidationExceptionExtension::IsValid(System.Collections.Generic.IEnumerable`1<FluentValidation.Results.ValidationResult>,Desafio.Contas.Application.Validation.ValidationException&)": {
+          "Lines": {
+            "23": 2,
+            "24": 2,
+            "25": 2,
+            "27": 5,
+            "28": 1,
+            "29": 1,
+            "30": 1,
+            "31": 1,
+            "33": 2,
+            "34": 2
+          },
+          "Branches": [
+            {
+              "Line": 27,
+              "Offset": 7,
+              "EndOffset": 9,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 3
+            },
+            {
+              "Line": 27,
+              "Offset": 7,
+              "EndOffset": 48,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            },
+            {
+              "Line": 27,
+              "Offset": 51,
+              "EndOffset": 53,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 27,
+              "Offset": 51,
+              "EndOffset": 65,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 2
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\wilso\\source\\repos\\Testes\\desafio-contas\\api\\DesafioContas\\Application\\Query\\SearchEntries\\SearchEntriesQuery.cs": {
+      "Desafio.Contas.Application.Query.SearchEntries.SearchEntriesQuery": {
+        "Desafio.Contas.Application.Query.SearchEntries.DayEntriesResponse Desafio.Contas.Application.Query.SearchEntries.SearchEntriesQuery::GetDays(System.DateTime,System.Collections.Generic.IEnumerable`1<Desafio.Contas.Domain.Entry>)": {
+          "Lines": {
+            "80": 14,
+            "82": 392,
+            "85": 14,
+            "88": 14,
+            "90": 14,
+            "91": 14,
+            "92": 14,
+            "93": 14,
+            "94": 14,
+            "95": 14,
+            "96": 14
+          },
+          "Branches": [
+            {
+              "Line": 90,
+              "Offset": 108,
+              "EndOffset": 110,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 4
+            },
+            {
+              "Line": 90,
+              "Offset": 108,
+              "EndOffset": 118,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 10
+            }
+          ]
+        },
+        "Desafio.Contas.Application.Query.SearchEntries.SearchEntryResponse Desafio.Contas.Application.Query.SearchEntries.SearchEntriesQuery::GetEntryResponse(Desafio.Contas.Domain.Entry)": {
+          "Lines": {
+            "104": 24,
+            "105": 24,
+            "106": 24,
+            "107": 24,
+            "108": 24,
+            "109": 24,
+            "110": 24
+          },
+          "Branches": [
+            {
+              "Line": 105,
+              "Offset": 20,
+              "EndOffset": 22,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 7
+            },
+            {
+              "Line": 105,
+              "Offset": 20,
+              "EndOffset": 29,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 17
+            }
+          ]
+        },
+        "System.Boolean Desafio.Contas.Application.Query.SearchEntries.SearchEntriesQuery::IsDateValid(System.String,System.Nullable`1<System.DateTime>&)": {
+          "Lines": {
+            "119": 12,
+            "120": 12,
+            "122": 12,
+            "123": 7,
+            "124": 7,
+            "125": 7,
+            "128": 5,
+            "129": 12
+          },
+          "Branches": [
+            {
+              "Line": 122,
+              "Offset": 14,
+              "EndOffset": 16,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 8
+            },
+            {
+              "Line": 122,
+              "Offset": 14,
+              "EndOffset": 37,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 4
+            },
+            {
+              "Line": 122,
+              "Offset": 40,
+              "EndOffset": 42,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 7
+            },
+            {
+              "Line": 122,
+              "Offset": 40,
+              "EndOffset": 59,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 5
+            }
+          ]
+        },
+        "System.Void Desafio.Contas.Application.Query.SearchEntries.SearchEntriesQuery::.ctor(Desafio.Contas.Infrastructure.IEntryService,Desafio.Contas.Infrastructure.IAccountService,Microsoft.Extensions.Logging.ILogger`1<Desafio.Contas.Application.Query.SearchEntries.SearchEntriesQuery>)": {
+          "Lines": {
+            "23": 6,
+            "24": 6,
+            "25": 6,
+            "26": 6,
+            "27": 6,
+            "28": 6
+          },
+          "Branches": []
+        }
+      },
+      "Desafio.Contas.Application.Query.SearchEntries.SearchEntriesQuery/<>c": {
+        "System.DateTime Desafio.Contas.Application.Query.SearchEntries.SearchEntriesQuery/<>c::<Handle>b__4_0(Desafio.Contas.Domain.Entry)": {
+          "Lines": {
+            "58": 28
+          },
+          "Branches": []
+        }
+      },
+      "Desafio.Contas.Application.Query.SearchEntries.SearchEntriesQuery/<>c__DisplayClass4_0": {
+        "Desafio.Contas.Application.Query.SearchEntries.DayEntriesResponse Desafio.Contas.Application.Query.SearchEntries.SearchEntriesQuery/<>c__DisplayClass4_0::<Handle>b__1(System.DateTime)": {
+          "Lines": {
+            "61": 18
+          },
+          "Branches": []
+        }
+      },
+      "Desafio.Contas.Application.Query.SearchEntries.SearchEntriesQuery/<Handle>d__4": {
+        "System.Void Desafio.Contas.Application.Query.SearchEntries.SearchEntriesQuery/<Handle>d__4::MoveNext()": {
+          "Lines": {
+            "38": 6,
+            "39": 6,
+            "40": 6,
+            "41": 6,
+            "42": 2,
+            "44": 6,
+            "46": 6,
+            "47": 1,
+            "49": 5,
+            "51": 5,
+            "53": 5,
+            "54": 4,
+            "55": 4,
+            "63": 4,
+            "66": 1,
+            "67": 1,
+            "68": 1,
+            "71": 5
+          },
+          "Branches": [
+            {
+              "Line": 41,
+              "Offset": 110,
+              "EndOffset": 112,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            },
+            {
+              "Line": 41,
+              "Offset": 110,
+              "EndOffset": 133,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 4
+            },
+            {
+              "Line": 41,
+              "Offset": 136,
+              "EndOffset": 138,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 2
+            },
+            {
+              "Line": 41,
+              "Offset": 136,
+              "EndOffset": 209,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 6
+            },
+            {
+              "Line": 46,
+              "Offset": 273,
+              "EndOffset": 275,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 1
+            },
+            {
+              "Line": 46,
+              "Offset": 273,
+              "EndOffset": 316,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 5
+            },
+            {
+              "Line": 53,
+              "Offset": 648,
+              "EndOffset": 653,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 4
+            },
+            {
+              "Line": 53,
+              "Offset": 648,
+              "EndOffset": 879,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 1
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\wilso\\source\\repos\\Testes\\desafio-contas\\api\\DesafioContas\\Application\\Query\\SearchEntries\\SearchEntriesRequest.cs": {
+      "Desafio.Contas.Application.Query.SearchEntries.SearchEntriesRequest": {
+        "System.Guid Desafio.Contas.Application.Query.SearchEntries.SearchEntriesRequest::get_AccountId()": {
+          "Lines": {
+            "15": 23
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> Desafio.Contas.Application.Query.SearchEntries.SearchEntriesRequest::get_LastDaysCount()": {
+          "Lines": {
+            "20": 13
+          },
+          "Branches": []
+        },
+        "System.String Desafio.Contas.Application.Query.SearchEntries.SearchEntriesRequest::get_InitialDate()": {
+          "Lines": {
+            "25": 26
+          },
+          "Branches": []
+        },
+        "System.String Desafio.Contas.Application.Query.SearchEntries.SearchEntriesRequest::get_EndDate()": {
+          "Lines": {
+            "30": 15
+          },
+          "Branches": []
+        }
+      },
+      "Desafio.Contas.Application.Query.SearchEntries.SearchEntriesRequestValidator": {
+        "System.Void Desafio.Contas.Application.Query.SearchEntries.SearchEntriesRequestValidator::.ctor(Desafio.Contas.Infrastructure.IAccountService)": {
+          "Lines": {
+            "44": 1,
+            "45": 1,
+            "46": 1,
+            "48": 1,
+            "49": 1,
+            "50": 1
+          },
+          "Branches": []
+        }
+      },
+      "Desafio.Contas.Application.Query.SearchEntries.SearchEntriesRequestValidator/<AccountExists>d__2": {
+        "System.Void Desafio.Contas.Application.Query.SearchEntries.SearchEntriesRequestValidator/<AccountExists>d__2::MoveNext()": {
+          "Lines": {
+            "59": 1,
+            "60": 1,
+            "61": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\wilso\\source\\repos\\Testes\\desafio-contas\\api\\DesafioContas\\Application\\Query\\SearchEntries\\SearchEntriesResponse.cs": {
+      "Desafio.Contas.Application.Query.SearchEntries.SearchEntriesResponse": {
+        "Desafio.Contas.Application.Query.SearchEntries.SearchEntryAccountResponse Desafio.Contas.Application.Query.SearchEntries.SearchEntriesResponse::get_Account()": {
+          "Lines": {
+            "8": 33
+          },
+          "Branches": []
+        },
+        "System.Void Desafio.Contas.Application.Query.SearchEntries.SearchEntriesResponse::.ctor(Desafio.Contas.Application.Query.SearchEntries.SearchEntryAccountResponse,Desafio.Contas.Application.Query.SearchEntries.DayEntriesResponse[])": {
+          "Lines": {
+            "9": 5,
+            "10": 5
+          },
+          "Branches": []
+        }
+      },
+      "Desafio.Contas.Application.Query.SearchEntries.DayEntriesResponse": {
+        "System.DateTime Desafio.Contas.Application.Query.SearchEntries.DayEntriesResponse::get_Date()": {
+          "Lines": {
+            "19": 78
+          },
+          "Branches": []
+        },
+        "System.Void Desafio.Contas.Application.Query.SearchEntries.DayEntriesResponse::.ctor(System.DateTime,System.Decimal,System.Decimal,Desafio.Contas.Application.Query.SearchEntries.SearchEntryResponse[])": {
+          "Lines": {
+            "20": 14,
+            "21": 14
+          },
+          "Branches": []
+        }
+      },
+      "Desafio.Contas.Application.Query.SearchEntries.SearchEntryResponse": {
+        "System.String Desafio.Contas.Application.Query.SearchEntries.SearchEntryResponse::get_Description()": {
+          "Lines": {
+            "29": 96
+          },
+          "Branches": []
+        },
+        "System.Void Desafio.Contas.Application.Query.SearchEntries.SearchEntryResponse::.ctor(System.String,System.Decimal,System.String)": {
+          "Lines": {
+            "30": 24,
+            "31": 24
+          },
+          "Branches": []
+        }
+      },
+      "Desafio.Contas.Application.Query.SearchEntries.SearchEntryAccountResponse": {
+        "System.String Desafio.Contas.Application.Query.SearchEntries.SearchEntryAccountResponse::get_Name()": {
+          "Lines": {
+            "38": 15
+          },
+          "Branches": []
+        },
+        "System.Void Desafio.Contas.Application.Query.SearchEntries.SearchEntryAccountResponse::.ctor(System.String,System.Decimal)": {
+          "Lines": {
+            "39": 5,
+            "40": 5
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\wilso\\source\\repos\\Testes\\desafio-contas\\api\\DesafioContas\\Application\\Query\\GetAccounts\\GetAccountsQuery.cs": {
+      "Desafio.Contas.Application.Query.GetAccounts.GetAccountsQuery": {
+        "System.Void Desafio.Contas.Application.Query.GetAccounts.GetAccountsQuery::.ctor(Desafio.Contas.Infrastructure.IAccountService,Microsoft.Extensions.Logging.ILogger`1<Desafio.Contas.Application.Query.GetAccounts.GetAccountsQuery>)": {
+          "Lines": {
+            "20": 3,
+            "21": 3,
+            "22": 3,
+            "23": 3,
+            "24": 3
+          },
+          "Branches": []
+        }
+      },
+      "Desafio.Contas.Application.Query.GetAccounts.GetAccountsQuery/<Handle>d__3": {
+        "System.Void Desafio.Contas.Application.Query.GetAccounts.GetAccountsQuery/<Handle>d__3::MoveNext()": {
+          "Lines": {
+            "33": 3,
+            "34": 3,
+            "35": 3,
+            "36": 3,
+            "38": 3,
+            "39": 2,
+            "40": 2,
+            "42": 2,
+            "43": 1,
+            "44": 1,
+            "45": 1,
+            "46": 1,
+            "48": 1,
+            "49": 2,
+            "51": 1,
+            "52": 1,
+            "54": 1,
+            "55": 1,
+            "57": 3,
+            "59": 3
+          },
+          "Branches": [
+            {
+              "Line": 38,
+              "Offset": 84,
+              "EndOffset": 86,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 38,
+              "Offset": 84,
+              "EndOffset": 90,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 3
+            },
+            {
+              "Line": 38,
+              "Offset": 105,
+              "EndOffset": 110,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 2
+            },
+            {
+              "Line": 42,
+              "Offset": 277,
+              "EndOffset": 279,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 1
+            },
+            {
+              "Line": 42,
+              "Offset": 277,
+              "EndOffset": 393,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 1
+            },
+            {
+              "Line": 38,
+              "Offset": 105,
+              "EndOffset": 498,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\wilso\\source\\repos\\Testes\\desafio-contas\\api\\DesafioContas\\Application\\Query\\GetAccounts\\GetAccountsRequest.cs": {
+      "Desafio.Contas.Application.Query.GetAccounts.GetAccountsRequest": {
+        "System.Nullable`1<System.Guid> Desafio.Contas.Application.Query.GetAccounts.GetAccountsRequest::get_Id()": {
+          "Lines": {
+            "13": 9
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\wilso\\source\\repos\\Testes\\desafio-contas\\api\\DesafioContas\\Application\\Query\\GetAccounts\\GetAccountsResponse.cs": {
+      "Desafio.Contas.Application.Query.GetAccounts.GetAccountsResponse": {
+        "Desafio.Contas.Domain.Account[] Desafio.Contas.Application.Query.GetAccounts.GetAccountsResponse::get_Accounts()": {
+          "Lines": {
+            "9": 13
+          },
+          "Branches": []
+        },
+        "System.Void Desafio.Contas.Application.Query.GetAccounts.GetAccountsResponse::.ctor(Desafio.Contas.Domain.Account[])": {
+          "Lines": {
+            "10": 3,
+            "11": 3
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\wilso\\source\\repos\\Testes\\desafio-contas\\api\\DesafioContas\\Application\\Command\\UpdateAccount\\UpdateAccountCommand.cs": {
+      "Desafio.Contas.Application.Command.UpdateAccount.UpdateAccountCommand": {
+        "System.Void Desafio.Contas.Application.Command.UpdateAccount.UpdateAccountCommand::.ctor(Desafio.Contas.Infrastructure.IAccountService,Microsoft.Extensions.Logging.ILogger`1<Desafio.Contas.Application.Command.UpdateAccount.UpdateAccountCommand>)": {
+          "Lines": {
+            "19": 1,
+            "20": 1,
+            "21": 1,
+            "22": 1,
+            "23": 1
+          },
+          "Branches": []
+        }
+      },
+      "Desafio.Contas.Application.Command.UpdateAccount.UpdateAccountCommand/<Handle>d__3": {
+        "System.Void Desafio.Contas.Application.Command.UpdateAccount.UpdateAccountCommand/<Handle>d__3::MoveNext()": {
+          "Lines": {
+            "31": 1,
+            "32": 1,
+            "33": 1,
+            "34": 1,
+            "36": 1,
+            "37": 1,
+            "39": 1,
+            "41": 1,
+            "43": 1,
+            "45": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\wilso\\source\\repos\\Testes\\desafio-contas\\api\\DesafioContas\\Application\\Command\\UpdateAccount\\UpdateAccountRequest.cs": {
+      "Desafio.Contas.Application.Command.UpdateAccount.UpdateAccountRequest": {
+        "System.Guid Desafio.Contas.Application.Command.UpdateAccount.UpdateAccountRequest::get_Id()": {
+          "Lines": {
+            "15": 14
+          },
+          "Branches": []
+        },
+        "System.String Desafio.Contas.Application.Command.UpdateAccount.UpdateAccountRequest::get_Name()": {
+          "Lines": {
+            "19": 13
+          },
+          "Branches": []
+        },
+        "System.Decimal Desafio.Contas.Application.Command.UpdateAccount.UpdateAccountRequest::get_Balance()": {
+          "Lines": {
+            "23": 3
+          },
+          "Branches": []
+        }
+      },
+      "Desafio.Contas.Application.Command.UpdateAccount.UpdateAccountRequestValidator": {
+        "System.Void Desafio.Contas.Application.Command.UpdateAccount.UpdateAccountRequestValidator::.ctor(Desafio.Contas.Infrastructure.IAccountService)": {
+          "Lines": {
+            "37": 5,
+            "38": 5,
+            "39": 5,
+            "41": 5,
+            "42": 5,
+            "44": 5,
+            "45": 5,
+            "46": 5,
+            "47": 5,
+            "48": 5
+          },
+          "Branches": []
+        }
+      },
+      "Desafio.Contas.Application.Command.UpdateAccount.UpdateAccountRequestValidator/<AccountExists>d__2": {
+        "System.Void Desafio.Contas.Application.Command.UpdateAccount.UpdateAccountRequestValidator/<AccountExists>d__2::MoveNext()": {
+          "Lines": {
+            "57": 5,
+            "58": 5,
+            "59": 5
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\wilso\\source\\repos\\Testes\\desafio-contas\\api\\DesafioContas\\Application\\Command\\UpdateAccountBalance\\UpdateAccountBalanceCommand.cs": {
+      "Desafio.Contas.Application.Command.UpdateAccountBalance.UpdateAccountBalanceCommand": {
+        "System.Void Desafio.Contas.Application.Command.UpdateAccountBalance.UpdateAccountBalanceCommand::.ctor(Desafio.Contas.Infrastructure.IAccountService,Microsoft.Extensions.Logging.ILogger`1<Desafio.Contas.Application.Command.UpdateAccountBalance.UpdateAccountBalanceCommand>)": {
+          "Lines": {
+            "20": 3,
+            "21": 3,
+            "22": 3,
+            "23": 3,
+            "24": 3
+          },
+          "Branches": []
+        }
+      },
+      "Desafio.Contas.Application.Command.UpdateAccountBalance.UpdateAccountBalanceCommand/<Handle>d__3": {
+        "System.Void Desafio.Contas.Application.Command.UpdateAccountBalance.UpdateAccountBalanceCommand/<Handle>d__3::MoveNext()": {
+          "Lines": {
+            "32": 3,
+            "33": 3,
+            "34": 3,
+            "36": 3,
+            "37": 3,
+            "39": 3,
+            "41": 3,
+            "43": 2,
+            "44": 2,
+            "45": 1,
+            "46": 1,
+            "47": 1,
+            "48": 1,
+            "49": 3,
+            "50": 3
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\wilso\\source\\repos\\Testes\\desafio-contas\\api\\DesafioContas\\Application\\Command\\UpdateAccountBalance\\UpdateAccountBalanceRequest.cs": {
+      "Desafio.Contas.Application.Command.UpdateAccountBalance.UpdateAccountBalanceRequest": {
+        "System.Guid Desafio.Contas.Application.Command.UpdateAccountBalance.UpdateAccountBalanceRequest::get_Id()": {
+          "Lines": {
+            "13": 11
+          },
+          "Branches": []
+        },
+        "System.Decimal Desafio.Contas.Application.Command.UpdateAccountBalance.UpdateAccountBalanceRequest::get_Value()": {
+          "Lines": {
+            "17": 8
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\wilso\\source\\repos\\Testes\\desafio-contas\\api\\DesafioContas\\Application\\Command\\AddEntry\\AddEntryCommand.cs": {
+      "Desafio.Contas.Application.Command.AddEntry.AddEntryCommand": {
+        "System.Void Desafio.Contas.Application.Command.AddEntry.AddEntryCommand::.ctor(Desafio.Contas.Infrastructure.IEntryService,Desafio.Contas.Infrastructure.IAccountService,MediatR.IMediator,Microsoft.Extensions.Logging.ILogger`1<Desafio.Contas.Application.Command.AddEntry.AddEntryCommand>)": {
+          "Lines": {
+            "25": 1,
+            "26": 1,
+            "27": 1,
+            "28": 1,
+            "29": 1,
+            "30": 1,
+            "31": 1
+          },
+          "Branches": []
+        }
+      },
+      "Desafio.Contas.Application.Command.AddEntry.AddEntryCommand/<Handle>d__5": {
+        "System.Void Desafio.Contas.Application.Command.AddEntry.AddEntryCommand/<Handle>d__5::MoveNext()": {
+          "Lines": {
+            "39": 1,
+            "40": 1,
+            "41": 1,
+            "42": 1,
+            "43": 1,
+            "44": 1,
+            "46": 1,
+            "47": 1,
+            "48": 1,
+            "49": 1,
+            "50": 1,
+            "51": 1,
+            "52": 1,
+            "53": 1,
+            "54": 1,
+            "55": 1,
+            "56": 1,
+            "58": 1,
+            "60": 1,
+            "62": 1,
+            "63": 1,
+            "65": 1,
+            "67": 1
+          },
+          "Branches": [
+            {
+              "Line": 42,
+              "Offset": 158,
+              "EndOffset": 163,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 60,
+              "Offset": 637,
+              "EndOffset": 639,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 60,
+              "Offset": 637,
+              "EndOffset": 652,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            },
+            {
+              "Line": 42,
+              "Offset": 158,
+              "EndOffset": 861,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "Desafio.Contas.Application.Command.AddEntry.AddEntryCommand/<UpdateAccountBalance>d__6": {
+        "System.Void Desafio.Contas.Application.Command.AddEntry.AddEntryCommand/<UpdateAccountBalance>d__6::MoveNext()": {
+          "Lines": {
+            "75": 1,
+            "76": 1,
+            "77": 1,
+            "78": 1,
+            "79": 1,
+            "80": 1,
+            "81": 1,
+            "82": 1,
+            "84": 1,
+            "86": 1,
+            "87": 1,
+            "88": 1
+          },
+          "Branches": [
+            {
+              "Line": 78,
+              "Offset": 117,
+              "EndOffset": 119,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 78,
+              "Offset": 117,
+              "EndOffset": 132,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\wilso\\source\\repos\\Testes\\desafio-contas\\api\\DesafioContas\\Application\\Command\\AddEntry\\AddEntryRequest.cs": {
+      "Desafio.Contas.Application.Command.AddEntry.AddEntryRequest": {
+        "System.Guid Desafio.Contas.Application.Command.AddEntry.AddEntryRequest::get_AccountId()": {
+          "Lines": {
+            "15": 9
+          },
+          "Branches": []
+        },
+        "System.String Desafio.Contas.Application.Command.AddEntry.AddEntryRequest::get_Description()": {
+          "Lines": {
+            "19": 5
+          },
+          "Branches": []
+        },
+        "System.String Desafio.Contas.Application.Command.AddEntry.AddEntryRequest::get_Date()": {
+          "Lines": {
+            "23": 6
+          },
+          "Branches": []
+        },
+        "System.Decimal Desafio.Contas.Application.Command.AddEntry.AddEntryRequest::get_Value()": {
+          "Lines": {
+            "27": 5
+          },
+          "Branches": []
+        },
+        "System.Int32 Desafio.Contas.Application.Command.AddEntry.AddEntryRequest::get_Type()": {
+          "Lines": {
+            "31": 5
+          },
+          "Branches": []
+        }
+      },
+      "Desafio.Contas.Application.Command.AddEntry.AddEntryRequestValidator": {
+        "System.DateTime Desafio.Contas.Application.Command.AddEntry.AddEntryRequestValidator::CastDate(System.String)": {
+          "Lines": {
+            "84": 6,
+            "85": 6,
+            "86": 2,
+            "88": 4,
+            "89": 6
+          },
+          "Branches": [
+            {
+              "Line": 85,
+              "Offset": 22,
+              "EndOffset": 24,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            },
+            {
+              "Line": 85,
+              "Offset": 22,
+              "EndOffset": 28,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 4
+            }
+          ]
+        },
+        "System.Boolean Desafio.Contas.Application.Command.AddEntry.AddEntryRequestValidator::<.ctor>b__1_3(System.String)": {
+          "Lines": {
+            "57": 3
+          },
+          "Branches": []
+        },
+        "System.Boolean Desafio.Contas.Application.Command.AddEntry.AddEntryRequestValidator::<.ctor>b__1_4(System.String)": {
+          "Lines": {
+            "58": 6
+          },
+          "Branches": []
+        },
+        "System.Void Desafio.Contas.Application.Command.AddEntry.AddEntryRequestValidator::.ctor(Desafio.Contas.Infrastructure.IAccountService)": {
+          "Lines": {
+            "45": 3,
+            "46": 3,
+            "47": 3,
+            "49": 3,
+            "50": 3,
+            "52": 3,
+            "53": 3,
+            "54": 3,
+            "56": 3,
+            "60": 3,
+            "61": 3,
+            "63": 3,
+            "64": 3,
+            "65": 3
+          },
+          "Branches": []
+        }
+      },
+      "Desafio.Contas.Application.Command.AddEntry.AddEntryRequestValidator/<AccountExists>d__2": {
+        "System.Void Desafio.Contas.Application.Command.AddEntry.AddEntryRequestValidator/<AccountExists>d__2::MoveNext()": {
+          "Lines": {
+            "74": 3,
+            "75": 3,
+            "76": 3
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\wilso\\source\\repos\\Testes\\desafio-contas\\api\\DesafioContas\\Application\\Command\\AddAccount\\AddAccountCommand.cs": {
+      "Desafio.Contas.Application.Command.AddAccount.AddAccountCommand": {
+        "System.Void Desafio.Contas.Application.Command.AddAccount.AddAccountCommand::.ctor(Desafio.Contas.Infrastructure.IAccountService,Microsoft.Extensions.Logging.ILogger`1<Desafio.Contas.Application.Command.AddAccount.AddAccountCommand>)": {
+          "Lines": {
+            "20": 1,
+            "21": 1,
+            "22": 1,
+            "23": 1,
+            "24": 1
+          },
+          "Branches": []
+        }
+      },
+      "Desafio.Contas.Application.Command.AddAccount.AddAccountCommand/<Handle>d__3": {
+        "System.Void Desafio.Contas.Application.Command.AddAccount.AddAccountCommand/<Handle>d__3::MoveNext()": {
+          "Lines": {
+            "33": 1,
+            "34": 1,
+            "35": 1,
+            "36": 1,
+            "37": 1,
+            "38": 1,
+            "39": 1,
+            "40": 1,
+            "41": 1,
+            "42": 1,
+            "44": 1,
+            "46": 1,
+            "48": 1,
+            "50": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\wilso\\source\\repos\\Testes\\desafio-contas\\api\\DesafioContas\\Application\\Command\\AddAccount\\AddAccountRequest.cs": {
+      "Desafio.Contas.Application.Command.AddAccount.AddAccountRequest": {
+        "System.String Desafio.Contas.Application.Command.AddAccount.AddAccountRequest::get_Name()": {
+          "Lines": {
+            "15": 7
+          },
+          "Branches": []
+        },
+        "System.Decimal Desafio.Contas.Application.Command.AddAccount.AddAccountRequest::get_Balance()": {
+          "Lines": {
+            "19": 2
+          },
+          "Branches": []
+        }
+      },
+      "Desafio.Contas.Application.Command.AddAccount.AddAccountRequestValidator": {
+        "System.Void Desafio.Contas.Application.Command.AddAccount.AddAccountRequestValidator::.ctor(Desafio.Contas.Infrastructure.IAccountService)": {
+          "Lines": {
+            "33": 3,
+            "34": 3,
+            "35": 3,
+            "37": 3,
+            "38": 3,
+            "39": 3,
+            "40": 3,
+            "41": 3,
+            "42": 3
+          },
+          "Branches": []
+        }
+      },
+      "Desafio.Contas.Application.Command.AddAccount.AddAccountRequestValidator/<IsUniqueAccountName>d__2": {
+        "System.Void Desafio.Contas.Application.Command.AddAccount.AddAccountRequestValidator/<IsUniqueAccountName>d__2::MoveNext()": {
+          "Lines": {
+            "51": 3,
+            "52": 3,
+            "53": 3
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\wilso\\source\\repos\\Testes\\desafio-contas\\api\\DesafioContas\\Application\\Command\\AddAccount\\AddAccountResponse.cs": {
+      "Desafio.Contas.Application.Command.AddAccount.AddAccountResponse": {
+        "System.Guid Desafio.Contas.Application.Command.AddAccount.AddAccountResponse::get_Id()": {
+          "Lines": {
+            "7": 3
+          },
+          "Branches": []
+        },
+        "System.Void Desafio.Contas.Application.Command.AddAccount.AddAccountResponse::.ctor(System.Guid)": {
+          "Lines": {
+            "8": 1,
+            "9": 1
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "Desafio.Contas.Domain.dll": {
+    "C:\\Users\\wilso\\source\\repos\\Testes\\desafio-contas\\api\\DesafioContas\\Domain\\Account.cs": {
+      "Desafio.Contas.Domain.Account": {
+        "System.String Desafio.Contas.Domain.Account::get_Name()": {
+          "Lines": {
+            "17": 36
+          },
+          "Branches": []
+        },
+        "System.DateTime Desafio.Contas.Domain.Account::get_CreatedAt()": {
+          "Lines": {
+            "21": 5
+          },
+          "Branches": []
+        },
+        "System.Decimal Desafio.Contas.Domain.Account::get_Balance()": {
+          "Lines": {
+            "25": 42
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\wilso\\source\\repos\\Testes\\desafio-contas\\api\\DesafioContas\\Domain\\BaseEntity.cs": {
+      "Desafio.Contas.Domain.BaseEntity": {
+        "System.Guid Desafio.Contas.Domain.BaseEntity::get_Id()": {
+          "Lines": {
+            "11": 572
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\wilso\\source\\repos\\Testes\\desafio-contas\\api\\DesafioContas\\Domain\\Entry.cs": {
+      "Desafio.Contas.Domain.Entry": {
+        "Desafio.Contas.Domain.Account Desafio.Contas.Domain.Entry::get_Account()": {
+          "Lines": {
+            "11": 549
+          },
+          "Branches": []
+        },
+        "System.String Desafio.Contas.Domain.Entry::get_Description()": {
+          "Lines": {
+            "15": 86
+          },
+          "Branches": []
+        },
+        "System.DateTime Desafio.Contas.Domain.Entry::get_Date()": {
+          "Lines": {
+            "19": 916
+          },
+          "Branches": []
+        },
+        "System.DateTime Desafio.Contas.Domain.Entry::get_CreatedAt()": {
+          "Lines": {
+            "23": 133
+          },
+          "Branches": []
+        },
+        "System.Decimal Desafio.Contas.Domain.Entry::get_PreviousBalance()": {
+          "Lines": {
+            "27": 89
+          },
+          "Branches": []
+        },
+        "System.Decimal Desafio.Contas.Domain.Entry::get_Value()": {
+          "Lines": {
+            "31": 101
+          },
+          "Branches": []
+        },
+        "Desafio.Contas.Domain.EntryType Desafio.Contas.Domain.Entry::get_Type()": {
+          "Lines": {
+            "35": 101
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "Desafio.Contas.Infrastructure.dll": {}
+}

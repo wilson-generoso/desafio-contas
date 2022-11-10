@@ -3,12 +3,14 @@ using Desafio.Contas.Application.Validation;
 using MediatR;
 using System.Reflection;
 using Desafio.Contas.Application.Query.GetAccounts;
+using System.Diagnostics.CodeAnalysis;
 
 namespace Microsoft.Extensions.DependencyInjection
 {
     /// <summary>
     /// Objeto de extensão para configuração da camada de aplicação
     /// </summary>
+    [ExcludeFromCodeCoverage]
     public static class ApplicationExtension
     {
         /// <summary>

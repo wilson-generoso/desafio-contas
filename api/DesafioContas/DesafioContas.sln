@@ -3,17 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32922.545
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Desafio.Contas.Api", "Api\Desafio.Contas.Api.csproj", "{05752BE8-AEC6-413B-8E21-0A3162C73E8E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Desafio.Contas.Api", "Api\Desafio.Contas.Api.csproj", "{05752BE8-AEC6-413B-8E21-0A3162C73E8E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Desafio.Contas.Application", "Application\Desafio.Contas.Application.csproj", "{1AF48DE0-AD62-4616-A9D8-99B74D256FCF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Desafio.Contas.Application", "Application\Desafio.Contas.Application.csproj", "{1AF48DE0-AD62-4616-A9D8-99B74D256FCF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Desafio.Contas.Domain", "Domain\Desafio.Contas.Domain.csproj", "{3E821526-6826-45FC-B601-86A2B8CC96C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Desafio.Contas.Domain", "Domain\Desafio.Contas.Domain.csproj", "{3E821526-6826-45FC-B601-86A2B8CC96C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Desafio.Contas.Infrastructure", "Infrastructure\Desafio.Contas.Infrastructure.csproj", "{384A43DF-E1DA-4572-B5B2-9D9E998AEC31}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Desafio.Contas.Infrastructure", "Infrastructure\Desafio.Contas.Infrastructure.csproj", "{384A43DF-E1DA-4572-B5B2-9D9E998AEC31}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Desafio.Contas.Infrastructure.MongoDb", "Infrastructure.MongoDb\Desafio.Contas.Infrastructure.MongoDb.csproj", "{3A0C22B7-F3A3-4DF5-8E24-1439F81DB2FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Desafio.Contas.Infrastructure.MongoDb", "Infrastructure.MongoDb\Desafio.Contas.Infrastructure.MongoDb.csproj", "{3A0C22B7-F3A3-4DF5-8E24-1439F81DB2FB}"
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{0AA6C382-0637-4500-9FA5-55E3D2DFBC98}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution", "solution", "{A7CF665C-4FAD-451F-B052-9DDC21A690D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Desafio.Contas.Application.Test", "Application.Test\Desafio.Contas.Application.Test.csproj", "{24FC7561-3FB2-4E73-AC60-4B52A7505C23}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{A9C345F5-4AC5-4E53-B339-7935FC3A05BC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,9 +51,21 @@ Global
 		{0AA6C382-0637-4500-9FA5-55E3D2DFBC98}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0AA6C382-0637-4500-9FA5-55E3D2DFBC98}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0AA6C382-0637-4500-9FA5-55E3D2DFBC98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24FC7561-3FB2-4E73-AC60-4B52A7505C23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24FC7561-3FB2-4E73-AC60-4B52A7505C23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24FC7561-3FB2-4E73-AC60-4B52A7505C23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24FC7561-3FB2-4E73-AC60-4B52A7505C23}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{05752BE8-AEC6-413B-8E21-0A3162C73E8E} = {A7CF665C-4FAD-451F-B052-9DDC21A690D2}
+		{1AF48DE0-AD62-4616-A9D8-99B74D256FCF} = {A7CF665C-4FAD-451F-B052-9DDC21A690D2}
+		{3E821526-6826-45FC-B601-86A2B8CC96C2} = {A7CF665C-4FAD-451F-B052-9DDC21A690D2}
+		{384A43DF-E1DA-4572-B5B2-9D9E998AEC31} = {A7CF665C-4FAD-451F-B052-9DDC21A690D2}
+		{3A0C22B7-F3A3-4DF5-8E24-1439F81DB2FB} = {A7CF665C-4FAD-451F-B052-9DDC21A690D2}
+		{24FC7561-3FB2-4E73-AC60-4B52A7505C23} = {A9C345F5-4AC5-4E53-B339-7935FC3A05BC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D9D7B216-031A-4AC2-BF98-274FCF48A715}

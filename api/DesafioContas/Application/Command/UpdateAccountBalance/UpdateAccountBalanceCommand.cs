@@ -11,13 +11,13 @@ namespace Desafio.Contas.Application.Command.UpdateAccountBalance
     public class UpdateAccountBalanceCommand : INotificationHandler<UpdateAccountBalanceRequest>
     {
         private readonly IAccountService accountService;
-        private readonly ILogger<UpdateAccountCommand> logger;
+        private readonly ILogger<UpdateAccountBalanceCommand> logger;
 
         /// <summary>
         /// </summary>
         /// <param name="accountService">Serviço de infraestrutura para persistência de conta</param>
         /// <param name="logger"></param>
-        public UpdateAccountBalanceCommand(IAccountService accountService, ILogger<UpdateAccountCommand> logger)
+        public UpdateAccountBalanceCommand(IAccountService accountService, ILogger<UpdateAccountBalanceCommand> logger)
         {
             this.accountService = accountService;
             this.logger = logger;

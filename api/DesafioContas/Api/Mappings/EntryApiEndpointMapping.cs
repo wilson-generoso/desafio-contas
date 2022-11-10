@@ -21,7 +21,7 @@ namespace Desafio.Contas.Api.Mappings
                 var response = await mediator.Send(new SearchEntriesRequest
                 {
                     AccountId = accountId,
-                    LastDaysCount = lastDaysCount,
+                    LastDaysCount = lastDaysCount??7,
                     InitialDate = initialDate,
                     EndDate = endDate
                 });

@@ -35,7 +35,7 @@ namespace Desafio.Contas.Application.Command.AddAccount
             this.accountService = accountService;
 
             RuleFor(a => a.Name)
-                .NotEmpty().WithMessage("Informe o nome da conta")
+                .NotEmpty()
                 .NotNull().WithMessage("Informe o nome da conta")
                 .MaximumLength(16).WithMessage("O nome da conta deve possuir no máximo 16 caracteres")
                 .MustAsync(IsUniqueAccountName).WithMessage("O nome da conta já existe");
